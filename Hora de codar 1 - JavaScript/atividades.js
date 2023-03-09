@@ -56,10 +56,10 @@
 
 /* //TRAPÉZIO
 
-    var base_maior = prompt("Qual é a base maior? ");
-    var base_menor = prompt("Qual é a base menor? ");
-    var altura = prompt("Qual é a altura? ");
-    var area_trapezio = ((base_maior + base_menor) * altura / 2);
+    var base_maior = parseInt(prompt("Qual é a base maior? "));
+    var base_menor = parseInt(prompt("Qual é a base menor? "));
+    var altura = parseInt(prompt("Qual é a altura? "));
+    var area_trapezio = (base_maior + base_menor) * altura / 2
     document.write(area_trapezio); 
 
 */
